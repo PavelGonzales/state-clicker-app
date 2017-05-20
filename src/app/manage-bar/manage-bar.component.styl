@@ -1,0 +1,51 @@
+:host
+    position absolute
+    left 0
+    bottom 0
+    width 100%
+    display flex
+
+.manage-bar
+    color #fff
+    background-color #3E2723
+    width 100%
+    box-sizing border-box
+    padding 15px
+
+.resourses
+    &__item
+        line-height 1.6
+
+.tabs
+    position absolute 
+    top -30px
+    left 0
+    width 100%
+    display flex
+    
+    &__item 
+        width 25%
+        height 30px
+        border-radius 4px 4px 0 0
+        border 1px solid #fff
+        border-bottom 0
+        display flex 
+        text-transform uppercase
+        align-items center
+        justify-content center
+        color #fff
+        font-size 11px
+        cursor pointer
+
+        &:nth-child(1)
+            background-color #FF5722
+        &:nth-child(2)
+            background-color #42A5F5        
+        &:nth-child(3)
+            background-color #8E24AA        
+        &:nth-child(4)
+            background-color #F44336        
+        &:nth-child(5)
+            background-color #00E676
+        
+        
